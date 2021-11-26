@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "author": "DK",
   "license": "ISC",
@@ -12,6 +13,7 @@
     "body-parser": "^1.19.0",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
+    "gh-pages": "^3.2.3",
     "pusher": "^5.0.0",
     "socket.io": "^4.4.0"
   }
