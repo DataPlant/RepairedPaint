@@ -3,10 +3,9 @@ const express = require('express');
 // const io = require('socket.io')
 
 const app = express();
-const port = 5000;
 app.use(express.static('public'))
 
 
-app.listen(process.env.PORT || port, () => {
-  console.log(`Server started on port ${port}`);
+app.listen(process.env.PORT || '0.0.0.0', () => {
+  console.log(`Server started`);
 });
