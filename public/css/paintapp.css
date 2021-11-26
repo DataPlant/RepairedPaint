@@ -1,0 +1,15 @@
+body {
+    margin: 5px;
+}
+.navbar {
+    display: flex;
+    background-color: orange;
+    border: 4px gray;
+    position: absolute;
+    width: 100%;
+    margin: 5px 10px;
+    justify-content: center;
+}
+#canvas {
+    display: block;
+}
