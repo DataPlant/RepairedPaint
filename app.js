@@ -3,7 +3,7 @@ const express = require('express');
 // const io = require('socket.io')
 
 const app = express();
-const port = 4000;
+const port = 5000;
 app.use(express.static('public'))
 
 
