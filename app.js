@@ -3,7 +3,7 @@ const express = require('express');
 // const io = require('socket.io')
 
 const app = express();
-app.use('/public', express.static('/public'))
+app.use('./public/index.html', express.static('./public'))
 
 
 app.listen(process.env.PORT || '0.0.0.0', () => {
