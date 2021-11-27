@@ -1,5 +1,6 @@
 # RepairedPaint
 Heroku Deployment: https://mintbeanpaint.herokuapp.com/
+
 This repository was transferred over from the repository I started in, due to accidentally forgetting to untrack node_modules with .gitignore.
 The original repository:  https://github.com/DataPlant/paintappback
 This is a product of around 12 hours (This repo has only a few hours bc of the transfer), I knew I didn't have time but signed up anyway for the hackathon for the challenge and the access to instructors that can show me better ways to code paint. Here's hoping they'd still be available from time to time even though the hackathon will be over.
@@ -7,6 +8,7 @@ This is a product of around 12 hours (This repo has only a few hours bc of the t
 and this was the error I got :
 
 ....
+
 Enumerating objects: 1020, done.
 Counting objects: 100% (1020/1020), done.
 Delta compression using up to 12 threads
@@ -21,6 +23,7 @@ remote: error: GH001: Large files detected. You may want to try Git Large File S
 To https://github.com/DataPlant/paintappback.git
  ! [remote rejected] main -> main (pre-receive hook declined)
 error: failed to push some refs to 'https://github.com/DataPlant/paintappback.git'
+
 ....
 
 tried both soft and hard resets, but the local repository still contained unpushed commits of node_modules
