@@ -1,6 +1,8 @@
 # RepairedPaint
+Heroku Deployment: https://mintbeanpaint.herokuapp.com/
 This repository was transferred over from the repository I started in, due to accidentally forgetting to untrack node_modules with .gitignore.
-This was the original repository https://github.com/DataPlant/paintappback
+The original repository:  https://github.com/DataPlant/paintappback
+This is a product of around 12 hours (This repo has only a few hours bc of the transfer), I knew I didn't have time but signed up anyway for the hackathon for the challenge and the access to instructors that can show me better ways to code paint. Here's hoping they'd still be available from time to time even though the hackathon will be over.
 
 and this was the error I got :
 
